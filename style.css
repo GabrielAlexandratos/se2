@@ -134,6 +134,14 @@ h2 {
   font-size: 12px;
 }
 
+.subheading {
+  text-decoration: underline;
+  color: black;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
 a {
   margin: 0;
   padding-left: 5px;
@@ -181,3 +189,32 @@ span {
     padding-left: 10px;
   }
 }
+
+.warningbox {
+    background-color: #ffcccc;
+    border: 1px solid #452626;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    
+    padding: 12px 16px;
+    margin: 15px 10px 20px 10px;
+    
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.notebox {
+    background-color: #cceaff;
+    border: 1px solid #262d45;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    
+    padding: 12px 16px;
+    margin: 15px 10px 20px 10px;
+    
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.notetext {
+  line-height: 12px;
+}
+

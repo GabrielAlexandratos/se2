@@ -2,7 +2,6 @@
 require __DIR__ . "/db.php";
 ?>
 
-
 <div class="page-layout">
   <aside class="sidebar sidebar-left">
 
@@ -33,14 +32,12 @@ require __DIR__ . "/db.php";
   <div class="linkbox">
     <a href="index.php" class="menuoption">[home]</a>
     <span class="seperator">//</span>
-    <a href="downloads.php" class="menuoption">[songs/downloads]</a>
+    <a href="songs.php" class="menuoption">[songs/downloads]</a>
     <span class="seperator">//</span>
     <a href="artists.php" class="menuoption">[roster/releases]</a>
     <span class="seperator">//</span>
-    <a href="goodies.php" class="menuoption">[goodies]</a>
-    <span class="seperator">//</span>
     <a href="blog.php" class="menuoption">[blog]</a>
     <span class="seperator">//</span>
-    <a href="guestbook.php" class="menuoption">[chatroom]</a>
+    <a href="chatroom.php" class="menuoption">[chatroom]</a>
 
   </div>
