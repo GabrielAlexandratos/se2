@@ -28,17 +28,6 @@ session_start();
                 </div>
 
                <br>
-
-                <h2 class="subheading">What should you do here</h2>
-                <p> - Enjoy<a href="downloads.php" class="discretelink">free download links</a> to every song ever released under Suckerpunch Records</p>
-                <p> - Read up about all the<a href="artists.php" class="discretelink">lovely bands</a> that make this possible</p>
-                <p> - Go say hi in the<a href="guestbook.php" class="discretelink">chatroom</a></p>
-                <p> - Check out the other sites in<a href="links.php" class="discretelink">links</a></p>
-                <p> - Take a peak at some<a href="goodies.php" class="discretelink">unreleased tracks</a> from the bands YOU love</p>
-                <p> - Create an account and customise your profile</p>
-                <p> - View the other users and meet some<a href="users.php" class="discretelink">new people</a></p>
-
-                <br>
             </div>
 
         </div>
