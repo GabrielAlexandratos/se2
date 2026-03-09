@@ -134,6 +134,12 @@ h2 {
   font-size: 12px;
 }
 
+.bold {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: black;
+}
+
 .subheading {
   text-decoration: underline;
   color: black;
@@ -188,6 +194,11 @@ span {
     gap: 6px;
     padding-left: 10px;
   }
+}
+
+.discretelink {
+  color: #0000ee;
+  text-decoration: underline;
 }
 
 .warningbox {

@@ -38,10 +38,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <strong>NOTE:</strong> Never tell anyone your password ;)
     </div>
 
-    <div class="notebox">
-      <strong>If you have forgotten your password send a message to Suckerpunch on instagram and it can be reset.</strong>
-    </div>
-
     <h2 class="subheading">login</h2>
 
     <?php if ($error !== ""): ?>
