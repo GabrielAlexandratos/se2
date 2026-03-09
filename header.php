@@ -17,9 +17,9 @@ require __DIR__ . "/db.php";
   <div class="header-account">
 
     <?php if (isset($_SESSION["user_id"])): ?>
-      <a href="users.php" class="headermenuoption">[all users</a>
+      <a href="account.php?id=<?= (int)$_SESSION['user_id'] ?>" class="headermenuoption">[view profile]</a>
       <span class="seperator">//</span>
-      <a href="account.php?id=<?= (int)$_SESSION['user_id'] ?>" class="headermenuoption">[edit profile]</a>
+      <a href="signout.php" class="headermenuoption">[sign out]</a>
     <?php else: ?>
       <a href="login.php" class="headermenuoption">[login]</a>
       <span class="seperator">//</span>

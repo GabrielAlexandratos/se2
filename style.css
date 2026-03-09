@@ -127,6 +127,14 @@ h1 {
   color: white;
 }
 
+.profileheader {
+  margin: 0;
+  padding: 10px;
+  font-size: clamp(20px, 4vw, 30px);
+  font-weight: bolder;
+  color: black;
+}
+
 h2 {
   margin: 0;
   padding: 0 10px;
