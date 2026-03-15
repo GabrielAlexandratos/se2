@@ -23,7 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 <!DOCTYPE html>
-<html>
 <head>
   <link rel="stylesheet" href="style.css">
   <title>[login] - Suckerpunch Records</title>
@@ -48,12 +47,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <form method="post" style="padding-left:10px; padding-top:10px;">
       <p>username</p>
-      <input name="username" required>
+        <label>
+            <input name="username" required>
+        </label>
 
-      <p style="padding-top:10px;">password</p>
-      <input name="password" type="password" required>
+        <p style="padding-top:10px;">password</p>
+        <label>
+            <input name="password" type="password" required>
+        </label>
 
-      <p style="padding-top:10px;">
+        <p style="padding-top:10px;">
         <button type="submit">log in</button>
       </p>
     </form>
@@ -62,4 +65,3 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   <?php include "footer.php"; ?>
 </body>
-</html>

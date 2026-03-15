@@ -41,12 +41,6 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .sidebar-left { justify-self: end; }
 .sidebar-right { justify-self: start; }
 
@@ -84,7 +78,6 @@ body::-webkit-scrollbar {
   top: 6px;
   right: 10px;
   font-size: medium;
-  white-space: nowrap;
 }
 
 .header-account a {
@@ -99,11 +92,13 @@ body::-webkit-scrollbar {
 }
 
 .menuoption {
-  color: white;
+  color: rgb(214, 237, 255);
 }
 
 .menuoption:hover {
   text-decoration: underline;
+  color: white;
+  font-weight: bold;
 }
 
 .headermenuoption {
@@ -160,7 +155,7 @@ a {
   margin: 0;
   padding-left: 5px;
   text-decoration: none;
-  color: blue;
+  color: rgb(45, 45, 255);
 }
 
 p {
@@ -237,3 +232,67 @@ span {
   line-height: 12px;
 }
 
+.songs-search-form {
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  max-width: 500px;
+}
+
+.songs-search-form input {
+  flex: 1;
+}
+
+.songs-search-form a {
+  align-self: center;
+}
+
+.songs-list {
+  font-weight: bolder;
+}
+
+.songs-empty {
+  padding-left: 10px;
+}
+
+.album-header {
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.album-cover {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.album-cover-placeholder {
+  width: 50px;
+  height: 50px;
+  background: #eee;
+}
+
+.album-title {
+  font-weight: bold;
+}
+
+.album-meta {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+
+.song-row {
+  margin-bottom: 8px;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.song-genre {
+  opacity: 0.7;
+}

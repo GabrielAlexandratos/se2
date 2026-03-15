@@ -33,7 +33,5 @@ require __DIR__ . "/db.php";
   <span class="seperator">//</span>
   <a href="songs.php" class="menuoption">[songs/downloads]</a>
   <span class="seperator">//</span>
-  <a href="roster.php" class="menuoption">[roster/releases]</a>
-  <span class="seperator">//</span>
-  <a href="blog.php" class="menuoption">[blog]</a>
+  <a href="roster.php" class="menuoption">[artist/roster]</a>
 </div>

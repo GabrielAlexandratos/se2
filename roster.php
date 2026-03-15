@@ -11,7 +11,7 @@ session_start();
 
 <body>
     <?php include "header.php"; ?>
-        <div class="artistcontentbackground">
+        <div class="contentbackground">
 
             <h2 class="subheading">Artists:</h2>
 

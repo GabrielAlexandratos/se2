@@ -15,10 +15,9 @@ session_start();
     <div class="contentbackground">
 
     <!-- show the username that is curretly logged in-->
-    <h1 class="profileheader">You are logged in as <?= htmlspecialchars($_SESSION['user']) ?></h1>
+    <h1 class="profileheader">You are logged in as - <?= htmlspecialchars($_SESSION['user']) ?></h1>
 
     </div>
 
 <?php include "footer.php"; ?>
 </body>
-</html>
