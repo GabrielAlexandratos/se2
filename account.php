@@ -18,12 +18,6 @@ session_start();
     <br>
     <!-- show the username that is curretly logged in-->
     <p class="homeparagraph">You are logged in as - <?= htmlspecialchars($_SESSION['user']) ?></p>
-    
-    <br>
-
-    <h2 class="subheading">Public Profile:</h2>
-
-
 
     </div>
 

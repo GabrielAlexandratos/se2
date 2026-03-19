@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php endif; ?>
 
     <form method="post" style="padding-left:10px; padding-top:10px;">
-      <p>username (you create a display name separately)</p>
+      <p>username</p>
       <input name="username" required>
 
       <p style="padding-top:10px;">password</p>
