@@ -21,6 +21,7 @@ session_start();
                 <p class="artisttitle">C'est la vie | 2025</p>
                 <p class="artistinfo">Releases:</p>
                 <p> - summer demo (2025)</p>
+                <p> - winter split (2026)</p>
                 <br>
             </div>
 

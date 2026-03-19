@@ -56,7 +56,6 @@ body::-webkit-scrollbar {
   height: auto;
   min-height: 75px;
   background: #0054e3;
-  color: white;
   position: relative;
 }
 
@@ -98,7 +97,6 @@ body::-webkit-scrollbar {
 .menuoption:hover {
   text-decoration: underline;
   color: white;
-  font-weight: bold;
 }
 
 .headermenuoption {

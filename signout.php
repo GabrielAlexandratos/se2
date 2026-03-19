@@ -12,6 +12,6 @@ if (ini_get("session.use_cookies")) {
 }
 session_destroy();
 
-// put them back on the home page after
+// put the user back on the home page after they log out
 header('Location: index.php');
 exit;

@@ -60,8 +60,7 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <?php endif; ?>
 
         <div class="song-row">
-          <a class="song-title" href="<?= $s['audio_file'] ?>" download> <?= $s['title'] ?>
-          </a>
+          <a class="song-title" href="<?= $s['audio_file'] ?>" download> <?= $s['title'] ?> </a>
           <span class="song-genre">|| Genre: <?= $s['genre'] ?></span>
         </div>
 

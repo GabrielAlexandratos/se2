@@ -14,8 +14,16 @@ session_start();
 
     <div class="contentbackground">
 
+    <h2 class="subheading">Your Account:</h2>
+    <br>
     <!-- show the username that is curretly logged in-->
-    <h1 class="profileheader">You are logged in as - <?= htmlspecialchars($_SESSION['user']) ?></h1>
+    <p class="homeparagraph">You are logged in as - <?= htmlspecialchars($_SESSION['user']) ?></p>
+    
+    <br>
+
+    <h2 class="subheading">Public Profile:</h2>
+
+
 
     </div>
 

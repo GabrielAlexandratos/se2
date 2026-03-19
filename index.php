@@ -22,14 +22,12 @@ session_start();
 
             <div class="homeintro">
                 <p>Welcome to the OFFICIAL Suckerpunch records website</p>
-                <p>Suckerpunch Records was started on February 17th 2025</p>
+                <p>Suckerpunch Records was started on March 20th 2026</p>
             </div>
 
             <div class="homecontent">
-                <h2 class="subheading">Who what when where why</h2>
+                <h2 class="subheading">Who, what, when, where, why?</h2>
                 <p class="homeparagraph">Suckerpunch is an independent label based in Sydney Australia, our goal is getting music *physically* in the hands of as many people as possible.</p>
-                <p class="homeparagraphshortmed">Our focus is on releasing emo adjacent projects that have come from the DIY scene. We handle production of small runs of compact discs, cassette tapes, and 12" vinyl.</p>
-
                <br>
             </div>
 
